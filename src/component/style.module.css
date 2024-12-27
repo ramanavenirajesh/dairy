@@ -1,0 +1,122 @@
+/* 
+.heading2{
+    background-color: lightgrey;
+    color: blueviolet;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.container1{
+    background-color: lightgrey;
+    width: 100%;
+    height: 300px;
+    margin-top: -20px;
+}
+.container2{
+    width: 100%;
+}
+
+@media (max-width:756px) {
+    .heading0{
+        width: 100%;
+        height: auto;
+    }
+    
+} */
+
+
+
+/* @media screen and (max-width: 100%) {
+    h1{
+        display: flex;
+        position: relative;
+        left: 350px;
+    }
+    img{
+        width: 1000px;
+        height: 500px;
+    }
+} */
+
+.heading0 {
+    background-color:lightgray; /* Light gray background */
+    padding: 10px 0;
+}
+
+.navLink {
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+}
+
+.navLink:hover {
+    color: orange; /* Highlight color on hover */
+}
+
+/* Welcome Section */
+.welcomeSection {
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.welcomeText {
+    color: orange;
+    font-size: 2rem;
+}
+
+/* Full-Width Image */
+.fullWidthImage {
+    width: 100%;
+    height: auto;
+}
+
+/* About Section */
+.aboutSection {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+}
+
+.aboutHeading {
+    color: red;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.aboutText h3 {
+    color: blue;
+    font-size: 1.2rem;
+    margin: 5px 0;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .welcomeText {
+        font-size: 1.5rem;
+    }
+
+    .aboutHeading {
+        font-size: 2rem;
+    }
+
+    .aboutText h3 {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .welcomeText {
+        font-size: 1.2rem;
+    }
+
+    .aboutHeading {
+        font-size: 1.8rem;
+    }
+
+    .aboutText h3 {
+        font-size: 0.9rem;
+    }
+}

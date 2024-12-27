@@ -1,0 +1,7 @@
+.imgdiv{
+    /* object-fit: cover; */
+    /* border: 2px solid red; */
+}
+.imgdiv:hover{
+    box-shadow: 1px 1px 3px black,-1px -1px 3px black ;
+}
